@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
+    "react-confetti": "^2.3.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-scripts": "2.1.2",
+    "react-sizeme": "^2.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
