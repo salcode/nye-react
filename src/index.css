@@ -1,14 +1,48 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.background {
+	background-color: #000;
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.background::after {
+	background-color: rgba(0,0,0,0.3);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.location {
+	color: #fff;
+	font-weight: 400;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+.celebration-message,
+.counter {
+	color: #ecf0f1;
+	font-family: Roboto,serif;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	z-index: 2;
+}
+.counter {
+	font-size: 9rem;
+}
+@media screen and (min-width: 980px) {
+	.counter { font-size: 18rem; }
+}
+.celebration-message {
+	font-size: 9rem;
 }
