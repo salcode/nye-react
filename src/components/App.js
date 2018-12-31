@@ -128,31 +128,23 @@ class App extends React.Component {
         'imageSource': 'http://maxpixel.freegreatpicture.com/Capital-Moscow-Russia-Kremlin-Historically-538791'
       },
       '4': {
-        'name': 'Tehran, Iran',
-        'image': 'images/missing.jpg',
-      },
-      '5': {
-        'name': 'Kabul, Afghanistan',
-        'image': 'images/missing.jpg',
-      },
-      '6': {
         'name': 'Dubai, United Arab Emirates',
         'image': 'images/missing.jpg',
       },
-      '7': {
+      '5': {
         'name': 'Karachi, Pakistan',
         'image': 'images/missing.jpg',
       },
-      '8': {
-        'name': 'Omsk, Russia',
+      '6': {
+        'name': 'Dhaka, Bangladesh',
         'image': 'images/missing.jpg',
       },
-      '9': {
+      '7': {
         'name': 'Ho Chi Minh, Vietnam',
         'image': 'images/missing.jpg',
       },
-      '10': {
-        'name': 'Beijing, China',
+      '8': {
+        'name': 'Singapore',
         'image': 'images/missing.jpg',
       },
       '11': {
@@ -160,7 +152,7 @@ class App extends React.Component {
         'image': 'images/missing.jpg',
       },
       '12': {
-        'name': 'Ipswich, Australia',
+        'name': 'Brisbane, Australia',
         'image': 'images/missing.jpg',
       },
       '13': {
