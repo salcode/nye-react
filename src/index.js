@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
 	<App
     celebrationDuration="20"
-    endTimestamp={new Date('2019-01-01 0:00 GMT').getTime()}
+    endTimestamp={new Date('2019-01-01T00:00:00.000Z').getTime()}
 	/>,
 	document.getElementById('root')
 );
