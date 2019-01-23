@@ -4,6 +4,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Run from a sub-directory
+
+Add path to sub-directory in `package.json`
+
+    "homepage": "https://salferrarello.com/nye",
+
 ## Available Scripts
 
 In the project directory, you can run:
